@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="about__card">
-      <div class="px-4 pt-4 pb-2">
+      <div class="px-4 pt-4 pb-3">
         <h4>Featured</h4>
 
         <div class="mt-3 p-3 featured__div" @click="redirect">

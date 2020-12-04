@@ -8,20 +8,29 @@
 
           <div class="col-lg-9">
             <!-- Profile card here -->
-            <div class="mb-2">
+            <div class="mb-3">
               <profileCard />
             </div>
 
                  <!-- About card here -->
-            <div class="mb-2">
+            <div class="mb-3">
               <about />
             </div>
 
                   <!-- featured card here -->
-            <div class="mb-2">
+            <div class="mb-3">
               <featured />
             </div>
 
+                   <!-- Dashboard card here -->
+            <div class="mb-3">
+              <dashboard />
+            </div>
+
+                       <!-- Dashboard card here -->
+            <div class="mb-3">
+              <experience />
+            </div>
           </div>
 
           <div class="col-lg-3">hhghggwjhd</div>
@@ -35,13 +44,17 @@
 import linkNav from "~/components/partials/navbar";
 import profileCard from "~/components/home/profile";
 import about from '~/components/home/about';
-import featured from '~/components/home/featured'
+import featured from '~/components/home/featured';
+import dashboard from '~/components/home/dashboard';
+import experience from '~/components/home/experience'
 export default {
   components: {
     linkNav,
     profileCard,
     about,
-    featured
+    featured,
+    dashboard,
+    experience
   },
 };
 </script>
