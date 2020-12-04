@@ -4,7 +4,7 @@
       <div class="contain">
         <div class="d-flex align-items-center">
           <!-- Logo here -->
-          <div class="">
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="34"
@@ -56,7 +56,7 @@
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto contain">
-     <!-- Home Here -->
+        <!-- Home Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -69,7 +69,7 @@
           <p class="nav__item">Home</p>
         </div>
 
-   <!-- My Network Here -->
+        <!-- My Network Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -82,7 +82,7 @@
           <p class="nav__item">My Network</p>
         </div>
 
-   <!-- Jobs Here -->
+        <!-- Jobs Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -95,7 +95,7 @@
           <p class="nav__item">Jobs</p>
         </div>
 
-   <!-- Messaging Here -->
+        <!-- Messaging Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -108,7 +108,7 @@
           <p class="nav__item">Messaging</p>
         </div>
 
-   <!-- Notifications Here -->
+        <!-- Notifications Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -121,7 +121,7 @@
           <p class="nav__item">Notifications</p>
         </div>
 
-   <!-- Me Here -->
+        <!-- Me Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -135,22 +135,27 @@
             />
           </div>
           <div class="d-flex position-relative">
-                <p class="nav__item">Me</p>
-          <i class="position-absolute arrow"><svg class="nav__item__svg "  width="16" height="16" data-supported-dps="16x16">
-    <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
-  </svg></i>
+            <p class="nav__item">Me</p>
+            <i class="position-absolute arrow"
+              ><svg
+                class="nav__item__svg"
+                width="16"
+                height="16"
+                data-supported-dps="16x16"
+              >
+                <path
+                  d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"
+                ></path></svg
+            ></i>
           </div>
-    
         </div>
 
-   <!-- Dividing line Here -->
+        <!-- Dividing line Here -->
         <div
           class="d-flex flex-column align-items-center border__left mx-3 nav__section"
         ></div>
 
-        
-
-   <!-- Work Here -->
+        <!-- Work Here -->
         <div
           class="d-flex flex-column align-items-center mx-3 mt-3 nav__section"
         >
@@ -162,13 +167,20 @@
                 ></path></svg
             ></i>
           </div>
-              <div class="d-flex position-relative">
-                <p class="nav__item">Work</p>
-          <i class="position-absolute arrow2"><svg class="nav__item__svg "  width="16" height="16" data-supported-dps="16x16">
-    <path d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"></path>
-  </svg></i>
+          <div class="d-flex position-relative">
+            <p class="nav__item">Work</p>
+            <i class="position-absolute arrow2"
+              ><svg
+                class="nav__item__svg"
+                width="16"
+                height="16"
+                data-supported-dps="16x16"
+              >
+                <path
+                  d="M8.8 10.66L14 5.12a.07.07 0 00-.07-.12H2.07a.07.07 0 00-.07.12l5.2 5.54a1.1 1.1 0 001.6 0z"
+                ></path></svg
+            ></i>
           </div>
-    
         </div>
       </b-navbar-nav>
     </b-navbar>
@@ -201,13 +213,13 @@ export default {};
   border-left: 1px solid #aaaeb1;
   height: 64px;
 }
-.arrow{
-    bottom: 15px;
-    left:18px
+.arrow {
+  bottom: 15px;
+  left: 18px;
 }
-.arrow2{
-    bottom: 15px;
-    left:28px
+.arrow2 {
+  bottom: 15px;
+  left: 28px;
 }
 .search__input {
   display: block;
@@ -247,5 +259,4 @@ export default {};
 .navbar {
   padding: 0;
 }
-
 </style>
