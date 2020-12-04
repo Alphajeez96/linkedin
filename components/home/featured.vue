@@ -68,7 +68,7 @@ p {
   color: var(--black);
 }
 .article__img {
-  height: 40vh;
+  height: 30vh;
   border-radius: 1rem;
 }
 .article__text {

@@ -34,14 +34,14 @@
           </div>
 
           <div class="col-lg-4 border__left">
-            <div class="d-flex  pt-1 flex-column">
+            <div class="d-flex pt-1 flex-column">
               <h2>53</h2>
               <p>Post Views</p>
             </div>
           </div>
 
           <div class="col-lg-4 border__left">
-            <div class="d-flex  pt-1 flex-column">
+            <div class="d-flex pt-1 flex-column">
               <h2>2</h2>
               <p>Search Appearances</p>
             </div>
@@ -59,7 +59,7 @@
   background: #dce6f1;
 }
 .border__left {
-    height: 86px;
+  height: 86px;
   border-left: 1px solid var(--border-color);
 }
 .private {
@@ -75,7 +75,7 @@
   background: white;
   border-radius: var(--corner-radius);
   border: 1px solid var(--border-color);
-  height: 86px
+  height: 86px;
 }
 h4 {
   color: rgba(0, 0, 0, 0.9);
